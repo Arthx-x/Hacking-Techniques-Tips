@@ -1,6 +1,10 @@
 # Hacking-Techniques-Tips
-Some techniques and tips i use for my Pentest and Bug Bounty processes.
 
+<p align="center">
+  <img src="https://i.ibb.co/Bfdtftr/Astaroth1-removebg-preview.png">
+</p>
+
+Some techniques and tips i use for my Pentest and Bug Bounty processes.
 ## Recon Process
 
 ### Recon Tools
