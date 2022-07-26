@@ -24,5 +24,5 @@ subfinder -d TARGET.COM --silent | httpx-toolkit -silent | waybackurls | grep '=
 
 Quick search by XSS type 2
 ```
-cat alvo.txt | Gxss -p art | dalfox pipe --mining-dict /home/arthur/Tools/params.txt --skip-bav -o teste-xss.txt
+cat alvo.txt | Gxss -p art | dalfox pipe --mining-dict-word /home/arthur/Tools/params.txt --skip-bav -o teste-xss.txt
 ```
