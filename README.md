@@ -31,7 +31,11 @@ Quick search by XSS type 3:
 ```
 echo "fiemt.com.br" | gauplus --blacklist pdf,png,jpeg,jpg,gif,svg --fp | grep "=" | Gxss | dalfox pipe --skip-bav
 ```
-sysinternals remote
+Sysinternals remote
 ```
 \\live.sysinternals.com\tools\psexec.exe -accepteula
+```
+Running programs recursion
+```
+xargs -a ips.txt -I@ bash -c 'snmp-check -c community.txt @'
 ```
