@@ -39,3 +39,7 @@ Running programs recursion
 ```
 xargs -a ips.txt -I@ bash -c 'snmp-check -c community.txt @'
 ```
+Parsing url on website with grep
+```
+curl http://fiemt.ind.br/ | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | sort -u
+```
